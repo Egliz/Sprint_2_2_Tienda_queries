@@ -2,11 +2,11 @@
 
 
 ## 📈 Resumen
-✅ 17 correctas de 24 queries
+✅ 17 correctas de 25 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.38 ms
+⏱ Tiempo: 0.37 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -81,14 +81,14 @@
  disco ssd 1 tb | 150.99
 ```
 
-⏱ Tiempo: 0.26 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 8: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -105,7 +105,7 @@
  Disco SSD 1 TB | 151.00
 ```
 
-⏱ Tiempo: 0.26 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -122,28 +122,28 @@
  Disco SSD 1 TB | 150.00
 ```
 
-⏱ Tiempo: 0.26 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 11: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 12: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.28 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
 
 ## ✅ Query 13: Correcto
 
-⏱ Tiempo: 0.26 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -157,14 +157,14 @@
 
 ## ✅ Query 15: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 16: Correcto
 
-⏱ Tiempo: 0.32 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -174,7 +174,7 @@
 
 ## ✅ Query 17: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -184,7 +184,7 @@
 
 ## ✅ Query 18: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.30 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -205,8 +205,8 @@
 
 ## ✅ Query 21: Correcto
 
-⏱ Tiempo: 0.31 ms
-✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
+⏱ Tiempo: 0.30 ms
+✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
 
@@ -237,18 +237,33 @@
 -Disco duro SATA3 1TB | 86.99 | Seagate
 ```
 
-⏱ Tiempo: 0.33 ms
-✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
+⏱ Tiempo: 0.32 ms
+✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
 
 ## ✅ Query 23: Correcto
 
 ⏱ Tiempo: 0.29 ms
-✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
+✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
 
-## ❌ Query 24: Error
+## ❌ Query 24: Incorrecto
+```diff
+--- 
++++ 
+@@ -1,2 +1,2 @@
+-nombre | precio | fabricant
++nombre | precio | nombre del fabricante
+ Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard
+```
+
+⏱ Tiempo: 0.30 ms
+✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
+
+---
+
+## ❌ Query 25: Error
 - **Descripción**: 'NoneType' object is not iterable
 
