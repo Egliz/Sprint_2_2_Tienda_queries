@@ -2,22 +2,32 @@
 
 
 ## 📈 Resumen
-✅ 2 correctas de 3 queries
+✅ 3 correctas de 4 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.24 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.16 ms
+⏱ Tiempo: 0.18 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
-## ❌ Query 3: Error
+## ✅ Query 3: Correcto
+
+⏱ Tiempo: 0.17 ms
+🔍 No se usó ningún índice en esta consulta.
+
+🚨 **Problemas detectados:**
+⚠️ Evitar `SELECT *`. Usar solo las columnas necesarias.
+
+---
+
+## ❌ Query 4: Error
 - **Descripción**: 'NoneType' object is not iterable
 
