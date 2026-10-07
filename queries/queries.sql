@@ -122,7 +122,14 @@ ORDER BY producto.precio ASC
 LIMIT 1;
 
 -- 25. Retorna el nom del producte, el preu i el nom del seu fabricant (fabricante), del producte més car.
-
+SELECT producto.nombre,
+       producto.precio,
+       fabricante.nombre AS `nombre del fabricante`
+FROM producto
+INNER JOIN fabricante
+    ON producto.codigo_fabricante = fabricante.codigo
+ORDER BY producto.precio DESC
+LIMIT 1;
 
 -- 26. Retorna una llista amb nom i preu de tots els productes del fabricant Lenovo.
 
