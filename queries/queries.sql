@@ -64,7 +64,9 @@ FROM fabricante
 LIMIT 5;
 
 -- 17. Retorna una llista amb 2 files a partir de la quarta fila de la taula fabricante. La quarta fila també s'ha d'incloure en la resposta.
-
+SELECT *
+FROM fabricante
+LIMIT 3, 2;
 
 -- 18. Llista el nom i el preu del producte més barat. (Utilitza solament les clàusules ORDER BY i LIMIT).
 
