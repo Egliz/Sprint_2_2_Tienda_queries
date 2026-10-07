@@ -2,25 +2,25 @@
 
 
 ## 📈 Resumen
-✅ 4 correctas de 7 queries
+✅ 4 correctas de 8 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.40 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.19 ms
+⏱ Tiempo: 0.30 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.19 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -30,7 +30,7 @@
 
 ## ✅ Query 4: Correcto
 
-⏱ Tiempo: 0.18 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -47,7 +47,7 @@
  Disco SSD 1 TB | 150.99 | 166.09
 ```
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -64,11 +64,28 @@
  DISCO SSD 1 TB | 150.99
 ```
 
-⏱ Tiempo: 0.18 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
-## ❌ Query 7: Error
+## ❌ Query 7: Incorrecto
+```diff
+--- 
++++ 
+@@ -1,4 +1,4 @@
+-nombre | precio
++LOWER(nombre) | precio
+ disco duro sata3 1tb | 86.99
+ memoria ram ddr4 8gb | 120.00
+ disco ssd 1 tb | 150.99
+```
+
+⏱ Tiempo: 0.26 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
+
+## ❌ Query 8: Error
 - **Descripción**: 'NoneType' object is not iterable
 
