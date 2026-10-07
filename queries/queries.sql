@@ -69,7 +69,10 @@ FROM fabricante
 LIMIT 3, 2;
 
 -- 18. Llista el nom i el preu del producte més barat. (Utilitza solament les clàusules ORDER BY i LIMIT).
-
+SELECT nombre, precio
+FROM producto
+ORDER BY precio ASC
+LIMIT 1;
 
 -- 19. Llista el nom i el preu del producte més car. (Utilitza solament les clàusules ORDER BY i LIMIT).
 
