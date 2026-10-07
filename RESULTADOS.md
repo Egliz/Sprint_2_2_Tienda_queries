@@ -2,25 +2,25 @@
 
 
 ## 📈 Resumen
-✅ 23 correctas de 40 queries
+✅ 24 correctas de 41 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.22 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.14 ms
+⏱ Tiempo: 0.13 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.12 ms
+⏱ Tiempo: 0.11 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -30,7 +30,7 @@
 
 ## ✅ Query 4: Correcto
 
-⏱ Tiempo: 0.13 ms
+⏱ Tiempo: 0.12 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -64,7 +64,7 @@
  DISCO SSD 1 TB | 150.99
 ```
 
-⏱ Tiempo: 0.13 ms
+⏱ Tiempo: 0.12 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -81,7 +81,7 @@
  disco ssd 1 tb | 150.99
 ```
 
-⏱ Tiempo: 0.12 ms
+⏱ Tiempo: 0.11 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -129,42 +129,42 @@
 
 ## ✅ Query 11: Correcto
 
-⏱ Tiempo: 0.13 ms
+⏱ Tiempo: 0.12 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 12: Correcto
 
-⏱ Tiempo: 0.12 ms
+⏱ Tiempo: 0.11 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
 
 ## ✅ Query 13: Correcto
 
-⏱ Tiempo: 0.15 ms
+⏱ Tiempo: 0.12 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 14: Correcto
 
-⏱ Tiempo: 0.11 ms
+⏱ Tiempo: 0.10 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 15: Correcto
 
-⏱ Tiempo: 0.12 ms
+⏱ Tiempo: 0.11 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 16: Correcto
 
-⏱ Tiempo: 0.11 ms
+⏱ Tiempo: 0.10 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -174,7 +174,7 @@
 
 ## ✅ Query 17: Correcto
 
-⏱ Tiempo: 0.12 ms
+⏱ Tiempo: 0.11 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -198,7 +198,7 @@
 
 ## ✅ Query 20: Correcto
 
-⏱ Tiempo: 0.14 ms
+⏱ Tiempo: 0.12 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
@@ -244,7 +244,7 @@
 
 ## ✅ Query 23: Correcto
 
-⏱ Tiempo: 0.14 ms
+⏱ Tiempo: 0.12 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -259,7 +259,7 @@
  Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard
 ```
 
-⏱ Tiempo: 0.13 ms
+⏱ Tiempo: 0.14 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -305,7 +305,7 @@
  Monitor 27 LED Full HD | 245.99 | Asus
 ```
 
-⏱ Tiempo: 0.14 ms
+⏱ Tiempo: 0.13 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -341,7 +341,7 @@
  GeForce GTX 1050Ti | 185.00 | Gigabyte
 ```
 
-⏱ Tiempo: 0.14 ms
+⏱ Tiempo: 0.12 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -357,7 +357,7 @@
  Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard
 ```
 
-⏱ Tiempo: 0.13 ms
+⏱ Tiempo: 0.14 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -374,7 +374,7 @@
  Portátil Ideapd 320 | 444.00 | Lenovo
 ```
 
-⏱ Tiempo: 0.14 ms
+⏱ Tiempo: 0.13 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -415,7 +415,7 @@
  Lenovo | Portátil Ideapd 320
 ```
 
-⏱ Tiempo: 0.15 ms
+⏱ Tiempo: 0.14 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
@@ -431,7 +431,7 @@
  Xiaomi
 ```
 
-⏱ Tiempo: 0.13 ms
+⏱ Tiempo: 0.12 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
@@ -458,18 +458,28 @@
 
 ## ✅ Query 38: Correcto
 
-⏱ Tiempo: 0.14 ms
+⏱ Tiempo: 0.13 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
 
 ## ✅ Query 39: Correcto
 
-⏱ Tiempo: 0.14 ms
+⏱ Tiempo: 0.12 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
 
-## ❌ Query 40: Error
+## ✅ Query 40: Correcto
+
+⏱ Tiempo: 0.21 ms
+✅ Se usó índice(s) en la consulta: codigo_fabricante
+
+🚨 **Problemas detectados:**
+⚠️ Evitar `SELECT *`. Usar solo las columnas necesarias.
+
+---
+
+## ❌ Query 41: Error
 - **Descripción**: 'NoneType' object is not iterable
 
