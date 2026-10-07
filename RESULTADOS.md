@@ -2,25 +2,25 @@
 
 
 ## 📈 Resumen
-✅ 16 correctas de 23 queries
+✅ 17 correctas de 24 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.33 ms
+⏱ Tiempo: 0.38 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.19 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.17 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -30,7 +30,7 @@
 
 ## ✅ Query 4: Correcto
 
-⏱ Tiempo: 0.17 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -47,7 +47,7 @@
  Disco SSD 1 TB | 150.99 | 166.09
 ```
 
-⏱ Tiempo: 0.20 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -64,7 +64,7 @@
  DISCO SSD 1 TB | 150.99
 ```
 
-⏱ Tiempo: 0.16 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -81,14 +81,14 @@
  disco ssd 1 tb | 150.99
 ```
 
-⏱ Tiempo: 0.17 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 8: Correcto
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -105,7 +105,7 @@
  Disco SSD 1 TB | 151.00
 ```
 
-⏱ Tiempo: 0.16 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -122,49 +122,49 @@
  Disco SSD 1 TB | 150.00
 ```
 
-⏱ Tiempo: 0.19 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 11: Correcto
 
-⏱ Tiempo: 0.17 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 12: Correcto
 
-⏱ Tiempo: 0.19 ms
+⏱ Tiempo: 0.27 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
 
 ## ✅ Query 13: Correcto
 
-⏱ Tiempo: 0.17 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 14: Correcto
 
-⏱ Tiempo: 0.15 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 15: Correcto
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 16: Correcto
 
-⏱ Tiempo: 0.18 ms
+⏱ Tiempo: 0.32 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -174,7 +174,7 @@
 
 ## ✅ Query 17: Correcto
 
-⏱ Tiempo: 0.17 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -184,29 +184,29 @@
 
 ## ✅ Query 18: Correcto
 
-⏱ Tiempo: 0.17 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 19: Correcto
 
-⏱ Tiempo: 0.17 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 20: Correcto
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.28 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
 
 ## ✅ Query 21: Correcto
 
-⏱ Tiempo: 0.21 ms
-✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
+⏱ Tiempo: 0.31 ms
+✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
@@ -237,11 +237,18 @@
 -Disco duro SATA3 1TB | 86.99 | Seagate
 ```
 
-⏱ Tiempo: 0.23 ms
-✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
+⏱ Tiempo: 0.33 ms
+✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
-## ❌ Query 23: Error
+## ✅ Query 23: Correcto
+
+⏱ Tiempo: 0.29 ms
+✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
+
+---
+
+## ❌ Query 24: Error
 - **Descripción**: 'NoneType' object is not iterable
 
