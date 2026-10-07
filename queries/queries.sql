@@ -212,7 +212,11 @@ LEFT JOIN producto
     ON fabricante.codigo = producto.codigo_fabricante;
 
 -- 35. Retorna un llistat on només apareguin els noms dels fabricants (fabricante) que no tenen cap producte associat.
-
+SELECT fabricante.nombre
+FROM fabricante
+LEFT JOIN producto
+    ON fabricante.codigo = producto.codigo_fabricante
+WHERE producto.codigo IS NULL;
 
 -- 36. Retorna tots els productes del fabricant Lenovo. (Sense utilitzar INNER JOIN).
 
