@@ -40,6 +40,8 @@ SELECT codigo_fabricante
 FROM producto;
 
 -- 12. Llista el codi dels fabricants que tenen productes en la taula producto, eliminant els codis que apareixen repetits.
+SELECT DISTINCT codigo_fabricante
+FROM producto;
 
 
 -- 13. Llista els noms dels fabricants ordenats de manera ascendent
