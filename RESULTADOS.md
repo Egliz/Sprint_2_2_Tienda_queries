@@ -2,25 +2,25 @@
 
 
 ## 📈 Resumen
-✅ 11 correctas de 17 queries
+✅ 12 correctas de 18 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.37 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.14 ms
+⏱ Tiempo: 0.31 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.12 ms
+⏱ Tiempo: 0.30 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -30,7 +30,7 @@
 
 ## ✅ Query 4: Correcto
 
-⏱ Tiempo: 0.12 ms
+⏱ Tiempo: 0.31 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -47,7 +47,7 @@
  Disco SSD 1 TB | 150.99 | 166.09
 ```
 
-⏱ Tiempo: 0.14 ms
+⏱ Tiempo: 0.33 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -64,7 +64,7 @@
  DISCO SSD 1 TB | 150.99
 ```
 
-⏱ Tiempo: 0.12 ms
+⏱ Tiempo: 0.31 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -81,14 +81,14 @@
  disco ssd 1 tb | 150.99
 ```
 
-⏱ Tiempo: 0.11 ms
+⏱ Tiempo: 0.31 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 8: Correcto
 
-⏱ Tiempo: 0.13 ms
+⏱ Tiempo: 0.31 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -105,7 +105,7 @@
  Disco SSD 1 TB | 151.00
 ```
 
-⏱ Tiempo: 0.13 ms
+⏱ Tiempo: 0.33 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -122,49 +122,49 @@
  Disco SSD 1 TB | 150.00
 ```
 
-⏱ Tiempo: 0.11 ms
+⏱ Tiempo: 0.30 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 11: Correcto
 
-⏱ Tiempo: 0.13 ms
+⏱ Tiempo: 0.31 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 12: Correcto
 
-⏱ Tiempo: 0.12 ms
+⏱ Tiempo: 0.32 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
 
 ## ✅ Query 13: Correcto
 
-⏱ Tiempo: 0.11 ms
+⏱ Tiempo: 0.34 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 14: Correcto
 
-⏱ Tiempo: 0.10 ms
+⏱ Tiempo: 0.33 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 15: Correcto
 
-⏱ Tiempo: 0.11 ms
+⏱ Tiempo: 0.34 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 16: Correcto
 
-⏱ Tiempo: 0.10 ms
+⏱ Tiempo: 0.31 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -172,6 +172,16 @@
 
 ---
 
-## ❌ Query 17: Error
+## ✅ Query 17: Correcto
+
+⏱ Tiempo: 0.30 ms
+🔍 No se usó ningún índice en esta consulta.
+
+🚨 **Problemas detectados:**
+⚠️ Evitar `SELECT *`. Usar solo las columnas necesarias.
+
+---
+
+## ❌ Query 18: Error
 - **Descripción**: 'NoneType' object is not iterable
 
