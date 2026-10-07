@@ -116,7 +116,7 @@ SELECT producto.nombre,
        producto.precio,
        fabricante.nombre AS `nombre del fabricante`
 FROM producto
-INNER JOIN fabricante
+JOIN fabricante
     ON producto.codigo_fabricante = fabricante.codigo
 ORDER BY producto.precio ASC
 LIMIT 1;
@@ -126,13 +126,18 @@ SELECT producto.nombre,
        producto.precio,
        fabricante.nombre AS `nombre del fabricante`
 FROM producto
-INNER JOIN fabricante
+JOIN fabricante
     ON producto.codigo_fabricante = fabricante.codigo
 ORDER BY producto.precio DESC
 LIMIT 1;
 
 -- 26. Retorna una llista amb nom i preu de tots els productes del fabricant Lenovo.
-
+SELECT producto.nombre,
+       producto.precio
+FROM producto
+JOIN fabricante
+    ON producto.codigo_fabricante = fabricante.codigo
+WHERE fabricante.nombre = 'Lenovo';
 
 -- 27. Retorna una llista amb nom i preu de tots els productes del fabricant Crucial que tinguin un preu major que 200 €
 
