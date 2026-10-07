@@ -140,7 +140,13 @@ JOIN fabricante
 WHERE fabricante.nombre = 'Lenovo';
 
 -- 27. Retorna una llista amb nom i preu de tots els productes del fabricant Crucial que tinguin un preu major que 200 €
-
+SELECT producto.nombre,
+       producto.precio
+FROM producto
+INNER JOIN fabricante
+    ON producto.codigo_fabricante = fabricante.codigo
+WHERE fabricante.nombre = 'Crucial'
+  AND producto.precio > 200;
 
 -- 28. Retorna un llistat amb nom, preu i nom del fabricant (fabricante) de tots els productes dels fabricants Asus, Hewlett-Packard i Seagate. Sense utilitzar l'operador IN.
 
