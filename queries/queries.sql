@@ -169,7 +169,13 @@ JOIN fabricante
 WHERE fabricante.nombre IN ('Asus', 'Hewlett-Packard', 'Seagate');
 
 -- 30. Retorna un llistat amb el nom, el preu i el nom del fabricant (fabricante) dels productes, on el nom del fabricant acabi en la lletra 'e'.
-
+SELECT producto.nombre,
+       producto.precio,
+       fabricante.nombre AS `nombre del fabricante`
+FROM producto
+JOIN fabricante
+    ON producto.codigo_fabricante = fabricante.codigo
+WHERE fabricante.nombre LIKE '%e';
 
 -- 31. Retorna un llistat amb el nom del producte, el seu preu i el nom del fabricant (fabricante), per a tots aquells productes els fabricants dels quals contenen la lletra 'w' en el seu nom.
 
