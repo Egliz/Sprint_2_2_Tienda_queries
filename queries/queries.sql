@@ -100,7 +100,7 @@ SELECT producto.nombre,
 FROM producto
 JOIN fabricante
     ON producto.codigo_fabricante = fabricante.codigo
-ORDER BY producto.nombre ASC;
+ORDER BY producto.nombre /*ASC*/;
 
 -- 23. Retorna una llista amb el codi del producte, nom del producte, codi del fabricant (codigo fabricante) i nom del fabricant (nombre fabricante), de tots els productes de la base de dades.
 SELECT producto.codigo,
